@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    background-color: #E5E5E5;
+}
+/*Estilos navegacion*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+a{
+    text-decoration: none;
+    color: #242E52;
+}
+
+.nav-item{
+    display: inline;
+    list-style: none;
+    border: red;
+    margin: 5%;
+    font-size: 12px;    
+}
+.start , .start-icon{
+    background: #F3603B;
+    color: #E5E5E5;
+    border-radius: 50px;
+    border-color: #F3603B;
+    position: static;
+    width: 134px;
+    height: 44px;
+    top: 65px;
+}
+.start{
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
