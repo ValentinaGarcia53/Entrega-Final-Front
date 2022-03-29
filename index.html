@@ -5,13 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Manage</title>
 </head>
 <body>
+
+    <!-- Falta:
+    -Cambiar boton en comentarios
+    -Poner pseudoclase
+    -Poner pseudoelemento
+    -Ver footer
+    -ver diferencias los numeros con titulo
+    -Hacer el celular
+    -->
+
 <!-- Width de mi monitor 1366px -->
-    <!-- Navegacion -->
+<!-- Navegacion -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand"><img src="img/logo.jpg" alt="Logo Menage"></a>
+        <a class="navbar-brand"><img src="img/logo.svg" alt="Logo Menage"></a>
         <div id="my-nav" class="collapse navbar-collapse">
             <ul class="nav-item mr-auto">
                 <li class="nav-item active">
@@ -29,9 +43,123 @@
             </ul>
         </div>
         <button class="start" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="start-icon">Get Started</span>
+            Get Started
         </button>
     </nav>
+<!-- Banner -->
+    <section class="texto-banner">
+        <article id="texto">
+            <h1>Bring everyone 
+            together to build better products.</h1>
+            <p>Manage makes it simple for software teams to plan day-to-day tasks while keeping the large team goals in view </p>
+            <button class="start">
+                Get Started
+            </button>
+        </article>
+        <img id="banner"src="img/illustration-intro.svg" alt="Estadisticas">
+    </section>
+
+<!-- Diferencias de Manage -->
+    <section class="diferencia">
+        <article class="titulo">
+            <h2>What´s different about
+                Manage? </h2>
+            <p>
+                Manage provides all the functionality your
+                teas needs, without the complexity. Our software is tailor-made for modern digital product teams 
+            </p>
+        </article>
+        
+        <article class="items">
+        <div>
+            <button class="start-2">01</button>
+            <h4>Track company-wide progress</h4>
+        </div>
+            <p id="texto-2">See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.</p>
+        <div>   
+            <button class="start-2">02</button>
+            <h4>Advance built-in reports</h4>
+        </div>
+            <p id="texto-2">Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed.</p>
+        <div>    
+            <button class="start-2">03</button>
+            <h4>Everything you need in one place</h4>
+        </div>
+            <p id="texto-2">Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.</p>
+        </article>
+    </section>
+
+    <!-- Comentarios -->
+    
+        <h3>What they´ve said</h3>
+        <section class="comentarios">
+            <article class="perfiles">
+                <img src="img/perfil1.jpg" alt="Ali Bravo">
+                <h4>Ali Bravo</h4>
+                <p id="texto-2">“Manage has supercharged our team´s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”</p>
+    
+            </article>       
+             <article class="perfiles">
+                <img src="img/perfil2.jpg" alt="Ali Bravo">
+                <h4>Ali Bravo</h4>
+                <p id="texto-2">“We have been able to cancel so many other subscriptions since using manage. There ir no more cross-channel confusion and everyone is much more focused.”</p>
+            </article>
+            <article class="perfiles">
+                <img src="img/perfil3.jpg" alt="Ali Bravo">
+                <h4>Ali Bravo</h4>
+                <p id="texto-2">“Manage allows us to provide structure and process. It keeps us organized and focused. I can´t stop recommending them to everyone i talk to!”</p>
+            </article>
+          
+    </section>
+    <button class="start"> Get Started </button>
+
+    <!-- Texto Fondo Naranja -->
+    <section >
+        <article class="empezar">
+            <p id="texto-3">Simplify hoy your team
+                words today.</p>
+                <button class="start-3"> Get Started </button>
+        </article>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <section class="footer">
+            <section class="footer1">
+                <img src="img/logo.svg" alt="Logo">
+                <article class="footer1"></article>
+                <a href="" ><img src="img/icon-facebook.svg" alt=""></a>
+                <a href=""><img src="img/icon-youtube.svg" alt=""></a>
+                <a href=""><img src="img/icon-twitter.svg" alt=""></a>
+                <a href=""><img src="img/icon-pinterest.svg" alt=""></a>
+                <a href=""><img src="img/icon-instagram.svg" alt=""></a>
+            </article>
+        </section>
+            <article class="footer2">
+                <ul>
+                    <li>Home</li>
+                    <li>Pricing</li>
+                    <li>Product</li>
+                    <li>About Us</li>
+                </ul>
+            </article>
+            <article class="footer2">
+                <ul>
+                    <li>Career</li>
+                    <li>Comunity</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </article>
+            <article class="form">
+                <form action="/contact" method="get">
+                    <textarea name="comentario" id="comentario" cols="30" rows="10">Update in your inbox...</textarea>
+                    <button class="start-2">Go</button> 
+                </form>
+            
+            </article>
+        
+        </section>
+    </footer>
     
 </body>
 </html>

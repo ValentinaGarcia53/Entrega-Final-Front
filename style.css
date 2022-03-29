@@ -2,11 +2,15 @@
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
-    background-color: #E5E5E5;
+ 
+    font-family: 'Be Vietnam Pro', sans-serif;
+
 }
+
 /*Estilos navegacion*/
 nav{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     margin-top: 5%;
 }
@@ -14,11 +18,11 @@ a{
     text-decoration: none;
     color: #242E52;
 }
-
 .nav-item{
-    display: inline;
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
     list-style: none;
-    border: red;
     margin: 5%;
     font-size: 12px;    
 }
@@ -27,11 +31,182 @@ a{
     color: #E5E5E5;
     border-radius: 50px;
     border-color: #F3603B;
-    position: static;
     width: 134px;
     height: 44px;
     top: 65px;
+    font-weight: 500;
+    font-size: 13px;
 }
 .start{
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+/*Estilos Banner*/
+.texto-banner{
+    display: flex;
+    flex-direction: row;
+}
+#texto{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding-right: 15%;
+ }
+ h1{
+     font-size: 58px;
+     font-weight: 700;
+     padding-bottom: 5%;
+     color: #242E52;
+ }
+p{
+    font-size: 17px;
+    padding-bottom: 5%;
+}
+#banner{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    width: 500px;
+    height:450px;
+}
+
+/*Diferrencias de manage*/
+.diferencia{
+    display: flex;
+    flex-direction: flex;
+    margin-top: 10%;
+}
+h2{
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 5%;
+    color: #242E52;
+}
+h4{
+    color: #242E52;
+    margin-left: ;
+}
+.items{
+    width: 50%;
+}
+.titulo{
+    width: 50%;
+    margin-left: 10%;
+    padding-right: 15%;
+}
+.start-2{
+    display: inline-block;
+    background: #F3603B;
+    color: #FFFFFF;
+    border-radius: 50px;
+    border-color: #F3603B;
+    position: static;
+    width: 69px;
+    height: 43px;
+    top: 65px;
+    font-weight: 700;
+    font-size: 16px;
+}
+#texto-2{
+    color: #B3B2B7;
+    font-weight: 500;
+    font-size: 17px;
+    padding-right: 10%;
+}
+div{
+    display: flex;
+    align-items: center;
+}
+
+/*Estilos Comentarios*/
+h3{
+    text-align: center;
+    color: #242E52;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10%;
+}
+.comentarios{
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.perfiles{
+   background-color: #FAFAFA;
+   position: relative;
+   top: 90%;
+}
+
+/*Estilos Fondo Naranja*/
+.empezar{
+    display: flex;
+    margin-top: 10%;
+    background-color: #F3603B;
+    align-items: center;
+}
+#texto-3{
+    color: #FAFAFA;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5%;
+    font-weight: 700;
+    font-size: 40px;
+    width: 50%;
+}
+.start-3{
+    background: #FAFAFA;
+    color: #F3603B;
+    border-radius: 50px;
+    border-color: #FAFAFA;
+    width: 134px;
+    height: 44px;
+    top: 65px;
+    font-weight: 500;
+    font-size: 13px;
+    margin-right: 10%;
+}
+
+/*Estilos Footer*/
+.footer{
+    display: flex;
+    background-color:#1E1E26;
+    padding: 10%;
+    flex-wrap: wrap;
+}
+.footer1{
+display: block;
+margin-right: 15%;
+}
+.footer2{
+    margin-left: 10%;
+    
+}
+ul{
+
+    list-style: none;
+    color: #E5E5E5;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+form{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+#comentario{
+    background: #FFFFFF;
+    color: #B3B2B7;
+    text-align: center;
+    border-radius: 50px;
+    width: 201px;
+    height: 44px;
+    margin-right: 5%;
 }
