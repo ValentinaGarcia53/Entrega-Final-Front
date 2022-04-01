@@ -189,6 +189,7 @@ h3{
 display: block;
 margin-right: 15%;
 }
+
 .footer2{
     margin-left: 10%;
     
@@ -315,15 +316,16 @@ button:hover{
      }
      .footer1{
          width: 100vw;
-         margin-bottom: 5%;
+         margin-bottom: 10vh;
          margin-left: 10%;
+
      }
+
      .footer2{
-        
-         flex-direction: row;
          margin-top: 5%;
          margin-bottom: 5%;
      }
+
      form{
          flex-direction: row;
          margin-top: 5%;
